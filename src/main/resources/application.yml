@@ -3,8 +3,14 @@ spring:
   application:
     name: hello-service
 
-# 配置服务注册中心的地址
+## 配置服务注册中心的地址（实践单节点服务注册中心案例时，放开此注释，并且注释下面的代码）
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://eurekaserverone:1111/eureka/
+
+# 配置服务注册中心的地址（实践服务注册中心集群案例时，放开此注释，并且注释上面的代码）
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:1111/eureka/
+      defaultZone: http://eurekaserverone:1111/eureka/
