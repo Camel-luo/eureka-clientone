@@ -2,7 +2,6 @@ package com.lyq.demo.controller;
 
 
 import org.apache.log4j.Logger;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
